@@ -11,4 +11,4 @@ type,number:number,number:number......
 *Type*: Should be unique, some text, for example "L"
 *Number*: Any Integer, means X and Y coordinate of a point *relative* to 0,0, which is always starting point of shape (you don't have to create that one).
 
-*Example:* "L",0:-1,0:-2,0:-3,1:-3 creates classic L shape
+*Example:* L,0:-1,0:-2,0:-3,1:-3 creates classic L shape
