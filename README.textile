@@ -1,0 +1,14 @@
+h1. Pentomino Solver
+
+h2. About
+
+p. Pentomino solver is a ruby program, which is capable of solving 2D Pentomino problems. Width and height of a desk can set. You can use either basic pentomino shapes or define your own in a file.
+
+h2. Defining own shapes
+
+p. You can define your own shapes in a file and set the program tu use it. Syntax is like following:
+type,number:number,number:number......
+*Type*: Should be unique, some text, for example "L"
+*Number*: Any Integer, means X and Y coordinate of a point *relative* to 0,0, which is always starting point of shape (you don't have to create that one).
+
+*Example:* "L",0:-1,0:-2,0:-3,1:-3 creates classic L shape
