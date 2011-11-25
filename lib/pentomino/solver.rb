@@ -75,7 +75,7 @@ module Pentomino
     #configuration is a desk.
     def solve()
       iterations = 0
-      
+      puts "Computing solution..."
       @stack.push @base_desk
       solution_found = false
       while @stack.length != 0 and solution_found == false
@@ -95,9 +95,9 @@ module Pentomino
             end
           end
         end
-        puts "iterace: #{iterations}, stack: #{@stack.length}"
+        #puts "iterace: #{iterations}, stack: #{@stack.length}"
       end
-      
+      puts "Pocet iteraci: #{iterations}"
       if solution_found
         puts "Solution found:"
         @result.print_desk
